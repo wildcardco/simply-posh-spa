@@ -1,14 +1,22 @@
 <template>
   <main>
     <!-- Hero Section -->
-    <div class="relative bg-spa-pink">
-      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24">
+    <div class="relative h-screen w-full">
+      <!-- Nuxt Image for optimized background -->
+      <NuxtImg
+        src="https://plus.unsplash.com/premium_photo-1675881733580-5d9ef42f7b03?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        alt="Happy dog relaxing after grooming"
+        class="absolute inset-0 h-full w-full object-cover"
+      />
+      <!-- Overlay for blending and text readability -->
+      <div class="absolute inset-0 bg-black/50"></div>
+      <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 flex items-center justify-center h-full">
         <div class="text-center">
-          <h1 class="text-4xl tracking-tight font-display font-bold text-gray-900 sm:text-5xl md:text-6xl">
+          <h1 class="text-4xl tracking-tight font-display font-bold text-white sm:text-5xl md:text-6xl">
             <span class="block">Welcome to Simply Posh</span>
             <span class="block text-spa-gold">Salon and Spa</span>
           </h1>
-          <p class="mt-3 max-w-md mx-auto text-base text-gray-600 sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
+          <p class="mt-3 max-w-md mx-auto text-base text-gray-200 sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
             Because every pet deserves to feel fabulous
           </p>
           <div class="mt-5 max-w-md mx-auto sm:flex sm:justify-center md:mt-8">
@@ -83,3 +91,10 @@ const testimonials = [
   }
 ]
 </script>
+
+<style scoped>
+/* Ensure the Hero Section spans the full viewport */
+.h-screen {
+  height: 100vh;
+}
+</style>

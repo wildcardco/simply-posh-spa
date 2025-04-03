@@ -60,8 +60,8 @@ const transformations = [
   {
     name: 'Daisy - Gentle Care',
     description: 'Sensitive skin treatment and styling',
-    before: 'https://images.unsplash.com/photo-1544197150-b99a580bb7a8',
-    after: 'https://images.unsplash.com/photo-1544197150-b99a580bb7a8'
+    before: 'https://images.unsplash.com/photo-1558788353-f76d92427f16',
+    after: 'https://images.unsplash.com/photo-1560807707-8cc77767d783'
   },
   {
     name: 'Oliver - Premium Package',
