@@ -12,8 +12,13 @@
           class="bg-spa-pink p-6 rounded-lg shadow-md"
         >
           <div class="flex items-center mb-4">
-            <div class="h-12 w-12 rounded-full bg-spa-gold flex items-center justify-center">
-              <span class="text-white text-xl font-bold">{{ review.initial }}</span>
+            <div class="h-12 w-12 rounded-full overflow-hidden bg-gray-200 flex items-center justify-center">
+              <img
+                v-if="review.image"
+                :src="review.image"
+                alt="Photo of {{ review.name }}"
+                class="h-full w-full object-cover"
+              />
             </div>
             <div class="ml-4">
               <h3 class="text-lg font-semibold text-gray-900">{{ review.name }}</h3>
@@ -30,41 +35,24 @@
 <script setup>
 const reviews = [
   {
-    name: 'Sarah Johnson',
-    pet: 'Owner of Luna',
-    initial: 'S',
-    quote: 'Simply Posh transformed my nervous Luna into a confident, beautiful pup. The care and attention they provide is unmatched!'
-  },
-  {
-    name: 'Michael Chen',
+    name: 'Brenda S.',
     pet: 'Owner of Max',
-    initial: 'M',
-    quote: 'The team here is amazing! Max always comes home looking and smelling wonderful. Best grooming experience ever!'
+    image: '/images/BrendaMax.jpg',
+    quote: 'AMAZING!!!!! I was super scared on where to take my baby Max to get groomed for his first time but she made us feel right at home!!! My Maxy came home super content and relaxed!!!!! This is the only place Max will be going to!!!! <3 '
   },
   {
-    name: 'Emily Davis',
-    pet: 'Owner of Bella',
-    initial: 'E',
-    quote: 'I wouldn\'t trust anyone else with my Bella. The attention to detail and gentle approach makes all the difference.'
+    name: 'Mari S.',
+    pet: 'Owner of Princess',
+    image: 'images/MariPrincess.jpg',
+    quote: 'Our baby mini poodle always gets a Princess treatment! She comes out smelling and looking amazing; I highly recommend simply posh!'
   },
   {
-    name: 'David Lee',
-    pet: 'Owner of Charlie',
-    initial: 'D',
-    quote: 'Charlie loves his spa days at Simply Posh! The staff is so friendly and professional. Highly recommend!'
-  },
-  {
-    name: 'Jessica Brown',
-    pet: 'Owner of Daisy',
-    initial: 'J',
-    quote: 'Daisy always looks stunning after her grooming sessions. The team truly cares about the pets they work with.'
-  },
-  {
-    name: 'Chris Wilson',
-    pet: 'Owner of Oliver',
-    initial: 'C',
-    quote: 'Oliver has never been happier! The grooming services are top-notch, and the staff is incredibly kind.'
+    name: 'Cindy Aviles',
+    pet: 'Owner of Snow',
+    image: 'images/CindyDog.jpg',
+    quote: 'She was great with our standard poodle! He has gone twice and he looked absolutely beautiful both times! She takes her time with your pet to ensure that they are comfortable :) Definitely recommend!'
   }
+
 ]
 </script>
 
