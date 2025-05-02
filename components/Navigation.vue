@@ -4,7 +4,7 @@
       <div class="flex justify-between h-20">
         <div class="flex items-center">
           <NuxtLink to="/" class="flex-shrink-0 flex items-center">
-            <h1 class="text-2xl font-display font-bold text-gray-900">Simply Posh</h1>
+            <h1 class="text-2xl font-display font-bold text-gray-900">Simply Posh Salon and Spa</h1>
           </NuxtLink>
         </div>
         
@@ -82,7 +82,6 @@ const navigationItems = [
   { name: 'Home', path: '/' },
   { name: 'Before & After', path: '/gallery' },
   { name: 'Services', path: '/services' },
-  { name: 'Contact', path: '/contact' },
   { name: 'Reviews', path: '/reviews' }
 ]
 </script>

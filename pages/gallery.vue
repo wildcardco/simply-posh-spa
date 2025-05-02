@@ -34,40 +34,40 @@
 <script setup>
 const transformations = [
   {
-    name: 'Luna - Spa Day Makeover',
-    description: 'Full grooming with special attention to matted fur',
-    before: 'https://images.unsplash.com/photo-1583511655857-d19b40a7a54e',
-    after: 'https://images.unsplash.com/photo-1583511666407-5f06533f2113'
+    name: '',
+    description: '',
+    before: 'images/BeforeSmoky.jpg',
+    after: 'images/AfterSmoky.jpg'
   },
   {
-    name: 'Max - Complete Transformation',
-    description: 'Thorough grooming and styling for a fresh look',
-    before: 'https://images.unsplash.com/photo-1576201836106-db1758fd1c97',
-    after: 'https://images.unsplash.com/photo-1587300003388-59208cc962cb'
+    name: '',
+    description: '',
+    before: 'images/BeforeSunny.jpg',
+    after: 'images/AfterSunny.jpg'
   },
   {
-    name: 'Bella - Luxury Treatment',
-    description: 'Premium grooming package with fur conditioning',
-    before: 'https://images.unsplash.com/photo-1517423440428-a5a00ad493e8',
-    after: 'https://images.unsplash.com/photo-1517423738875-5ce310acd3da'
+    name: '',
+    description: '',
+    before: 'images/BeforeSnowy.png',
+    after: 'images/AfterSnowy.png'
   },
   {
-    name: 'Charlie - Style Refresh',
-    description: 'Modern cut with detailed trimming',
-    before: 'https://images.unsplash.com/photo-1596492784531-6e6eb5ea9993',
-    after: 'https://images.unsplash.com/photo-1596492784531-6e6eb5ea9993'
+    name: '',
+    description: '',
+    before: 'images/BeforeBrownie.png',
+    after: 'images/AfterBrownie.png'
   },
   {
-    name: 'Daisy - Gentle Care',
-    description: 'Sensitive skin treatment and styling',
-    before: 'https://images.unsplash.com/photo-1558788353-f76d92427f16',
-    after: 'https://images.unsplash.com/photo-1560807707-8cc77767d783'
+    name: '',
+    description: '',
+    before: 'images/BeforeCupcake.png',
+    after: 'images/AfterCupcake.png'
   },
   {
-    name: 'Oliver - Premium Package',
-    description: 'Deluxe grooming with specialty products',
-    before: 'https://images.unsplash.com/photo-1535930891776-0c2dfb7fda1a',
-    after: 'https://images.unsplash.com/photo-1535930891776-0c2dfb7fda1a'
+    name: '',
+    description: '',
+    before: 'images/BeforeLucy.png',
+    after: 'images/AfterLucy.png'
   }
 ]
 </script>

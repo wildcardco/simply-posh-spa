@@ -4,23 +4,23 @@
       <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
         <div>
           <h3 class="text-lg font-display font-semibold text-gray-900">Simply Posh</h3>
-          <p class="mt-2 text-sm text-gray-600">Because every pet deserves to feel fabulous.</p>
+          <p class="mt-2 text-sm text-gray-600">Because every dog deserves a spa day.</p>
         </div>
         <div>
           <h3 class="text-lg font-display font-semibold text-gray-900">Hours</h3>
           <ul class="mt-2 space-y-1 text-sm text-gray-600">
-            <li>Monday - Friday: 9am - 6pm</li>
-            <li>Saturday: 9am - 4pm</li>
+            <li>Monday - Saturday: By appointment. Please contact through call or text at the number under Contact.</li>
+            <li></li>
             <li>Sunday: Closed</li>
           </ul>
         </div>
         <div>
           <h3 class="text-lg font-display font-semibold text-gray-900">Contact</h3>
           <ul class="mt-2 space-y-1 text-sm text-gray-600">
-            <li>123 Pet Paradise Lane</li>
-            <li>Beverly Hills, CA 90210</li>
-            <li>(555) 123-4567</li>
-            <li>info@simplyposhspa.com</li>
+            <li>240 Fernwood St</li>
+            <li>Hammond, IN 46324</li>
+            <li>(708)-674-8617</li>
+            <li>beccamoon@comcast.net</li>
           </ul>
         </div>
       </div>
